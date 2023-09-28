@@ -9,27 +9,27 @@ import './styles.css';
 function App() {
   return (
     <BrowserRouter>
-    <nav className="navbar-container">
-      <div className='navbar-content'>
-         <h1 className='title-nav'>Bookstore CMS</h1>
-         <ul>
-             <li>
+      <nav className="navbar-container">
+        <div className="navbar-content">
+          <h1 className="title-nav">Bookstore CMS</h1>
+          <ul>
+            <li>
               <Link className="books" to="/">Books</Link>
-             </li>
-             <li>
+            </li>
+            <li>
               <Link className="categories" to="/">Categories</Link>
-             </li>
-         </ul>
-         <div className="navbar-icon">
-             <PersonIcon />
-         </div>
-      </div>
-    </nav>
+            </li>
+          </ul>
+          <div className="navbar-icon">
+            <PersonIcon />
+          </div>
+        </div>
+      </nav>
 
-     <Routes>
+      <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/categories" element={<CategoriesPage />} />
-     </Routes>
+      </Routes>
     </BrowserRouter>
   );
 }
