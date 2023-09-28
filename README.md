@@ -1,12 +1,121 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+    <img src="./src/assets/math-magicians-logo.png" alt="logo" width="150"  height="auto" />
+    <h1><b>Bookstore</b></h1>
+</div>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
+
+---
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Bookstore <a name="about-project"></a>
+
+**Bookstore** In this project i will lay the foundations for my Bookstore website. I will create the user interface using React.
+I will also setup client-side routing using React Router V6.
+
+#### Learning objectives
+
+- Use React components.
+- Use React props.
+- Use React state.
+- Use React routes.
+
+---
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+  <ul>
+    <li>
+      <img src="https://skillicons.dev/icons?i=react"/>
+      <a href="https://react.dev/">React.js</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=js"/>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a>
+    </li>
+    <li>
+      <img src="https://skillicons.dev/icons?i=html"/>
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a>
+    </li>
+  </ul>
+
+---
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Setup a new React application using Create React App**
+- **Create a directory for your reusable components: /components.**
+- **Install React Router V6**
+- **Setup your router inside of <App>**
+- **Add 2 routes in your application, each should render a page component.**
+- **Create components inside of the /components directory.**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
+> This project requires Node.js and npm installed on your machine.
+
+### Prerequisites
+
+In order to run this project you need:
+
+### Setup
+
+Clone this repository to your desired folder:
+
+Example commands:
+
+```bash
+  cd math-magiciansa
+  git clone https://github.com/maximoortelli/Bookstore.git
+```
+
+### Install
+
+Install this project's dependencies with:
+
+- npm install
+
+### Usage
+
+To run the project, execute the following command:
+
+```bash
+ npm run start
+```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +123,78 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Run tests
+
+```bash
+  npm test
+```
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- AUTHORS -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👥 Authors <a name="authors"></a>
 
-### `npm run eject`
+👤 **Author**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- GitHub: [@maximoortelli](https://github.com/maximoortelli)
+- LinkedIn: [Maximo Ortelli](https://www.linkedin.com/in/maximo-ortelli-rueda-265228203/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- FUTURE FEATURES -->
 
-## Learn More
+## 🔭 Future Features <a name="future-features"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] **Improve Calculator style**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<!-- CONTRIBUTING -->
 
-### Analyzing the Bundle Size
+## 🤝 Contributing <a name="contributing"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Contributions, issues, and feature requests are welcome!
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+<!-- SUPPORT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⭐️ Show your support <a name="support"></a>
 
-### Deployment
+Give a ⭐ if you liked this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I thank Microverse for this fantastic opportunity.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
